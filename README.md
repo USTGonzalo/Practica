@@ -23,17 +23,17 @@ Tienen un
 
 # Endpoints
 Debe implementar rutas CRUD para cada modelo, las cuales son:
-- Listar Libros: Todos, por ISDN, por categoría.
-- Listar Autores: Todos, por ID.
-- Agregar Libros
-- Agregar Autores
-- Actualizar Libros
-- Actualizar Autores
-- Eliminar Libros
-- Eliminar Autores
+- Listar Libros: Todos, por ISDN, por categoría. (COMPLETADO)
+- Listar Autores: Todos, por ID. (COMPLETADO)
+- Agregar Libros (COMPLETADO)
+- Agregar Autores (COMPLETADO)
+- Actualizar Libros (COMPLETADO)
+- Actualizar Autores (COMPLETADO)
+- Eliminar Libros (COMPLETADO)
+- Eliminar Autores (COMPLETADO)
 
-En el caso de listar libros, debe agregar el autor del mismo.
-En el caso de listar autores, debe agregar los libros que han escrito.
+En el caso de listar libros, debe agregar el autor del mismo. (COMPLETADO)
+En el caso de listar autores, debe agregar los libros que han escrito. (COMPLETADO)
 
 # Restricciones
 Para la evaluación, se utilizarán 2 usuario de prueba, simulando que existen en una base de datos de usuarios.
