@@ -1,0 +1,34 @@
+{
+  "name": "pre-prueba-javascript",
+  "version": "1.0.0",
+  "description": "Desarrollar API REST utilizando Node.js con Express que permita gestionar Autores, Libros y Categorías de Libros.",
+  "main": "server.js",
+    "type": "module",
+    "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:seed": "node prisma/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfeMarioStomas/pre-prueba-javascript.git"
+  },
+  "author": "Mario Cares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProfeMarioStomas/pre-prueba-javascript/issues"
+  },
+  "homepage": "https://github.com/ProfeMarioStomas/pre-prueba-javascript#readme",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^6.8.2"
+  }
+}

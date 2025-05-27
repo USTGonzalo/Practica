@@ -66,3 +66,4 @@ Lo anterior, debe validarlo en base a JWT. Se entregará el usuario y contraseñ
 # Código base
 Se entregará el archivo schema.prisma para realizar la migración, además de un seed para precargar las categorías de libros.# Practica
 # Practica
+# Practica
